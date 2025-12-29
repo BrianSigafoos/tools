@@ -22,12 +22,8 @@ body {
   min-height: 100vh;
   font-family: "Space Grotesk", "Segoe UI", sans-serif;
   color: var(--ink);
-  background: radial-gradient(
-      circle at 20% 20%,
-      #101a2a 0%,
-      #0a101b 40%,
-      var(--bg) 100%
-    ),
+  background:
+    radial-gradient(circle at 20% 20%, #101a2a 0%, #0a101b 40%, var(--bg) 100%),
     linear-gradient(160deg, var(--bg), var(--bg-alt));
   color-scheme: dark;
 }
@@ -47,10 +43,8 @@ h2 {
 .bg-grid {
   position: fixed;
   inset: 0;
-  background-image: linear-gradient(
-      var(--grid) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
     linear-gradient(90deg, var(--grid) 1px, transparent 1px);
   background-size: 72px 72px;
   opacity: 0.45;
@@ -136,7 +130,8 @@ h2 {
   border: 1px solid var(--border);
   border-radius: 20px;
   padding: 24px;
-  box-shadow: 0 20px 40px -26px var(--shadow),
+  box-shadow:
+    0 20px 40px -26px var(--shadow),
     0 0 24px -18px var(--glow);
   display: flex;
   flex-direction: column;
@@ -195,7 +190,9 @@ h2 {
   background: rgba(46, 230, 166, 0.08);
   text-decoration: none;
   font-weight: 600;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .project-link:hover {
