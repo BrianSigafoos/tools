@@ -165,6 +165,10 @@ h2 {
   animation-delay: 0.24s;
 }
 
+.project-card:nth-child(4) {
+  animation-delay: 0.32s;
+}
+
 .project-head {
   display: flex;
   align-items: flex-start;
@@ -185,6 +189,11 @@ h2 {
   background: rgba(34, 198, 255, 0.16);
   padding: 6px 10px;
   border-radius: 8px;
+}
+
+.project-cli.project-web {
+  color: var(--warm);
+  background: rgba(242, 164, 87, 0.16);
 }
 
 .project-desc {
