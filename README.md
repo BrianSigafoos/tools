@@ -10,4 +10,5 @@ A collection of small tools by Brian Sigafoos.
 
 ## Web Tools
 
+- [Debt Payoff Calculator](https://debt-calc.bfoos.net) - See your path to zero. Model balance, APR, payments, fees, and new spending.
 - [PPP Pricing Calculator](https://ppp-pricing.bfoos.net) - Make global pricing feel local. PPP keeps prices aligned with what customers can pay.
